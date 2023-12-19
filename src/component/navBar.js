@@ -32,7 +32,7 @@ const Navbar=()=>{
             <NavbarBs  style={{backgroundColor:"rgba(141,39,40,0.2)" }}  >
                 <Container >
                 <Nav  >
-              <img src="../../../public/image/Kitabi.png"  style={{ height:"60px",width:"60px" ,borderRadius:"50px"}}/>
+              <img src="https://books-06fn.onrender.com/public/image/Kitabi.png"  style={{ height:"60px",width:"60px" ,borderRadius:"50px"}}/>
               </Nav>
                     <Nav className="me-auto" style={{  width:"300px" , display:"flex", justifyContent:"space-between"}}>
                         <Link to="/useDash"   as={NavLink} style={{textDecoration:"none" , fontSize:"30px", color:"black"}} >accueil </Link>
