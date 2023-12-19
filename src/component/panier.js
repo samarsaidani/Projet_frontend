@@ -75,7 +75,7 @@ const Panier =()=>{
           {/* <hr/>
           <h3> Total : {data.total}</h3> */}
            <h5 style={{display:"flex",justifyContent:"space-around",color:"black",paddingLeft:"600px"}}>Total :{data.total} Dt</h5>
-           <input type="text" placeholder="Adress" onChange={(event)=>setAdress(event.target.value)} />
+           <input type="text"  style={{width:"50px"}}placeholder="Adress" onChange={(event)=>setAdress(event.target.value)} />
            <div style={{display:"flex",justifyContent:"center"}}>
        
       
