@@ -19,18 +19,18 @@ const Panier =()=>{
     const data = useSelector((state)=>state.Cart)
     const dispatch = useDispatch()
    
-    console.log(data);
+    // console.log(data);
     const [adress,setAdress]=useState('')
 
      const valid =async()=>{
         await createCart({cart : data.cart})
         await finishOrder({adress:adress})
         .then((rslt)=>{
-            console.log(rslt);
+            // console.log(rslt);
 
         })
         .catch((err)=>{
-            console.log(err);
+            // console.log(err);
         })
      }
 
